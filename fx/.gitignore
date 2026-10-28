@@ -1,0 +1,41 @@
+# Build output
+/target/
+/dist/
+/bundle.json
+/SHA256SUMS.txt
+
+# Test footage and AE comparison renders (large, user-supplied)
+/compare/
+
+# Local scratch files and README demo output
+/work/
+
+# Local environment secrets
+.env
+.env.*
+!.env.example
+
+# Release archives
+*.zip
+
+# Editor / OS
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.log
+__pycache__/
+*.py[cod]
+
+# Local engineering references and experiment tooling (not part of the product)
+/spec/
+/tools/re/
+/tools/ae/
+/tools/runs/
+/tools/probe_*.ps1
+/tools/aecmp.ps1
+/tools/mkcfg.ps1
+/tools/extract_docs.ps1
+/docs/whiteroom.md
+/docs/priority-status.md

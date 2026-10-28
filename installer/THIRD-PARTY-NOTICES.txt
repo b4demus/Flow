@@ -1,0 +1,5 @@
+Flow
+
+This software is based in part on the work of the Independent JPEG Group.
+The IJG license is installed in licenses/IJG-README.txt.
+Flow modification notes are installed in licenses/IJG-FLOW.md.

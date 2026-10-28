@@ -1,0 +1,13 @@
+﻿[package]
+name = "flowtime-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "flowtime"
+path = "src/main.rs"
+
+[dependencies]
+flowtime-core = { path = "../core" }
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "tiff"] }

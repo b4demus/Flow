@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Flowtime</title>
+  <desc id="desc">Optical-flow retiming for After Effects and the command line. A mint-colored motion path flows through three violet frames on a dark background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#101728"/>
+      <stop offset="1" stop-color="#080c16"/>
+    </linearGradient>
+    <linearGradient id="path" x1="0" x2="1">
+      <stop stop-color="#b6a3ff"/>
+      <stop offset="0.52" stop-color="#66e3c4"/>
+      <stop offset="1" stop-color="#8cb4ff"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#b6a3ff" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#66e3c4" stop-opacity="0.025"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#97adcf" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="420" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="24" fill="url(#grid)"/>
+  <path d="M64 82h32" stroke="#66e3c4" stroke-width="4" stroke-linecap="round"/>
+  <text x="111" y="88" fill="#9aaac3" font-family="Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="3">MOTION, BETWEEN FRAMES</text>
+  <text x="59" y="207" fill="#f2f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="88" font-weight="700" letter-spacing="-4">Flowtime<tspan fill="#66e3c4">.</tspan></text>
+  <text x="64" y="253" fill="#a8b6cb" font-family="Segoe UI,Arial,sans-serif" font-size="23">Optical-flow retiming. Built in Rust.</text>
+  <rect x="64" y="302" width="143" height="34" rx="17" fill="#1c2437"/>
+  <text x="135" y="324" text-anchor="middle" fill="#c8baff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">AFTER EFFECTS</text>
+  <rect x="219" y="302" width="59" height="34" rx="17" fill="#152e2d"/>
+  <text x="248" y="324" text-anchor="middle" fill="#66e3c4" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">CLI</text>
+  <rect x="290" y="302" width="109" height="34" rx="17" fill="#1c2437"/>
+  <text x="344" y="324" text-anchor="middle" fill="#9fbfff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">OPEN SOURCE</text>
+  <g stroke="#b6a3ff" fill="url(#frame)">
+    <rect x="728" y="158" width="130" height="166" rx="13" stroke-opacity="0.25"/>
+    <rect x="894" y="110" width="130" height="166" rx="13" stroke-opacity="0.45"/>
+    <rect x="1060" y="62" width="130" height="166" rx="13" stroke-opacity="0.65"/>
+  </g>
+  <g fill="none" stroke="url(#path)" stroke-linecap="round">
+    <path d="M655 316C731 316 750 268 795 247S899 230 961 197S1040 115 1127 145S1193 126 1221 96" stroke-width="3"/>
+    <path d="M655 332C731 332 750 284 795 263S899 246 961 213S1040 131 1127 161S1193 142 1221 112" stroke-width="1" opacity="0.38"/>
+    <path d="M655 300C731 300 750 252 795 231S899 214 961 181S1040 99 1127 129S1193 110 1221 80" stroke-width="1" opacity="0.25"/>
+  </g>
+  <g fill="#0d1523" stroke="#66e3c4" stroke-width="3">
+    <circle cx="795" cy="247" r="12"/>
+    <circle cx="961" cy="197" r="12"/>
+    <circle cx="1127" cy="145" r="12"/>
+  </g>
+  <g fill="#66e3c4">
+    <circle cx="795" cy="247" r="4"/>
+    <circle cx="961" cy="197" r="4"/>
+    <circle cx="1127" cy="145" r="4"/>
+  </g>
+  <g fill="#788aa6" font-family="Consolas,monospace" font-size="12" text-anchor="middle">
+    <text x="793" y="351">FRAME A</text>
+    <text x="959" y="303">IN-BETWEEN</text>
+    <text x="1125" y="255">FRAME B</text>
+  </g>
+  <path d="M64 379H1216" stroke="#243046"/>
+  <text x="64" y="403" fill="#6f8099" font-family="Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="1">SLOW MOTION / SPEED RAMPS / FRAME-RATE CONVERSION</text>
+  <text x="1216" y="403" text-anchor="end" fill="#6f8099" font-family="Segoe UI,Arial,sans-serif" font-size="11">v0.1.0</text>
+</svg>

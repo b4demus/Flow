@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480" role="img" aria-labelledby="title desc">
+  <title id="title">Facet — effects for After Effects</title>
+  <desc id="desc">A geometric prism beside the Facet wordmark on a dark blue background. Light, motion, color, time. 41 effects for Windows x64.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101525"/><stop offset="1" stop-color="#090d17"/></linearGradient>
+    <linearGradient id="top" x2="1" y2="1"><stop stop-color="#e3d9ff"/><stop offset="1" stop-color="#9e8bff"/></linearGradient>
+    <linearGradient id="left" x2="1" y2="1"><stop stop-color="#8cc8ff"/><stop offset="1" stop-color="#517cf4"/></linearGradient>
+    <linearGradient id="right" x2="0" y2="1"><stop stop-color="#a6f5e0"/><stop offset="1" stop-color="#5dbcca"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#7886ed" stop-opacity=".15"/><stop offset="1" stop-color="#7886ed" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1600" height="480" rx="28" fill="url(#bg)"/>
+  <circle cx="260" cy="238" r="230" fill="url(#halo)"/>
+  <path d="M38 392H1562M38 86H1562" stroke="#ffffff" stroke-opacity=".045"/>
+  <g transform="translate(116 81)">
+    <path d="M150 14 294 97 150 180 6 97Z" fill="url(#top)"/>
+    <path d="M6 97 150 180 150 342 6 259Z" fill="url(#left)"/>
+    <path d="M150 180 294 97 294 259 150 342Z" fill="url(#right)"/>
+    <path d="M150 14V180M6 259 150 180 294 259M150 180V342" fill="none" stroke="#ffffff" stroke-opacity=".28"/>
+    <path d="M6 97 150 180 294 97" fill="none" stroke="#ffffff" stroke-opacity=".45"/>
+  </g>
+  <g fill="#eef2ff" font-family="Segoe UI,Arial,sans-serif">
+    <text x="480" y="123" fill="#a5b4cf" font-size="17" letter-spacing="5">AFTER EFFECTS COLLECTION</text>
+    <text x="471" y="283" font-size="168" font-weight="650" letter-spacing="-9">facet</text>
+    <text x="481" y="344" fill="#b4c1da" font-size="27" letter-spacing="2">LIGHT · MOTION · COLOR · TIME</text>
+    <text x="1483" y="420" text-anchor="end" fill="#8394b4" font-size="17" letter-spacing="2">41 EFFECTS / WINDOWS x64</text>
+  </g>
+</svg>

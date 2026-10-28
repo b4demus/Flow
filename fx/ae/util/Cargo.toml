@@ -1,0 +1,10 @@
+[package]
+name = "facet-ae-util"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+after-effects = "0.4"
+facet-core = { path = "../../core" }
+rayon = "1"

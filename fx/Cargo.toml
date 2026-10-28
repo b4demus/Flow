@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+members = ["core", "cli", "ae/util", "ae/glow", "ae/glowdarks", "ae/glowrainbow", "ae/glint", "ae/edgerays", "ae/shake", "ae/dissolveshake", "ae/flicker", "ae/flickerremove", "ae/flickerremovecolor", "ae/flickerremovematte", "ae/flickerrmmattecolor", "ae/flickermatch", "ae/flickermatchcolor", "ae/flickermatchmatte", "ae/flickermchmattecolor", "ae/freezeframe", "ae/getframe", "ae/jitterframes", "ae/randomedits", "ae/reverseclip", "ae/reverseedits", "ae/timewarprgb", "ae/timeaverage", "ae/duotone", "ae/vignette", "ae/warptransform", "ae/glowedges", "ae/dissolveblur", "ae/distortrgb", "ae/warpchroma", "ae/sharpen", "ae/blurmocurves", "ae/rays", "ae/filmdamage", "ae/digitaldamage", "ae/filmeffect", "ae/lensflare", "ae/hotspots", "ae/pixelsort", "ae/pixelmosh"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["b4demus"]
+license = "MIT"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+debug = false
+
+[profile.dev]
+opt-level = 2

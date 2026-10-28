@@ -1,0 +1,16 @@
+[package]
+name = "facet-digitaldamage"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+after-effects = "0.4"
+facet-core = { path = "../../core" }
+facet-ae-util = { path = "../util" }
+
+[build-dependencies]
+pipl = "0.1"

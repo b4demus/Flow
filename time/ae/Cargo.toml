@@ -1,0 +1,16 @@
+﻿[package]
+name = "flowtime-ae"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+after-effects = "0.4"
+flowtime-core = { path = "../core" }
+rayon = "1"
+
+[build-dependencies]
+pipl = "0.1"

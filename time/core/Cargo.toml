@@ -1,0 +1,8 @@
+[package]
+name = "flowtime-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+rayon = "1"

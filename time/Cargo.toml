@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+members = ["core", "cli", "ae"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["b4demus"]
+license = "MIT"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+debug = false
+
+[profile.dev]
+opt-level = 2

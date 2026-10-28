@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Dedupe — every drawing, once.</title>
+  <desc id="description">Duplicate-frame removal for After Effects. Six repeated source frames A, A, B, B, B, C become three unique frames A, B, C.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1280" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#161529"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="72" y1="75" x2="335" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#93C5FD"/>
+      <stop offset="1" stop-color="#C4B5FD"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#E2E8F0" stroke-opacity=".035"/>
+    </pattern>
+    <g id="drawing-a">
+      <rect x="0" y="0" width="62" height="72" rx="10" fill="#1E293B" stroke="#475569"/>
+      <rect x="14" y="17" width="22" height="22" rx="5" stroke="#94A3B8" stroke-width="2"/>
+      <path d="M14 52H48" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g id="drawing-b">
+      <rect x="0" y="0" width="62" height="72" rx="10" fill="#1E293B" stroke="#475569"/>
+      <rect x="22" y="17" width="22" height="22" rx="5" stroke="#94A3B8" stroke-width="2"/>
+      <path d="M14 52H48" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g id="drawing-c">
+      <rect x="0" y="0" width="62" height="72" rx="10" fill="#1E293B" stroke="#475569"/>
+      <rect x="27" y="17" width="22" height="22" rx="5" stroke="#94A3B8" stroke-width="2"/>
+      <path d="M14 52H48" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <rect width="1280" height="460" rx="24" fill="url(#background)"/>
+  <rect width="1280" height="460" rx="24" fill="url(#grid)"/>
+  <rect x=".5" y=".5" width="1279" height="459" rx="23.5" stroke="#334155"/>
+  <path d="M72 54H104V86H72V54Z" stroke="#A5B4FC" stroke-width="2"/>
+  <path d="M84 66H116V98H84V66Z" fill="#171D30" stroke="#67E8F9" stroke-width="2"/>
+  <text x="134" y="81" fill="#CBD5E1" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" letter-spacing="3">AFTER EFFECTS / SCRIPTUI</text>
+  <text x="67" y="179" fill="url(#accent)" font-family="Segoe UI,Arial,sans-serif" font-size="86" font-weight="750" letter-spacing="-4">Dedupe</text>
+  <text x="72" y="235" fill="#F1F5F9" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="600" letter-spacing="-.6">Every drawing, once.</text>
+  <text x="72" y="274" fill="#94A3B8" font-family="Segoe UI,Arial,sans-serif" font-size="18">Remove repeated frames.</text>
+  <text x="72" y="301" fill="#94A3B8" font-family="Segoe UI,Arial,sans-serif" font-size="18">Prepare your animation for retiming.</text>
+  <rect x="72" y="349" width="181" height="35" rx="17.5" fill="#99F6E4" fill-opacity=".07" stroke="#5EEAD4" stroke-opacity=".3"/>
+  <circle cx="91" cy="366.5" r="3.5" fill="#5EEAD4"/>
+  <text x="104" y="372" fill="#99F6E4" font-family="Segoe UI,Arial,sans-serif" font-size="13">Built for twos &amp; threes</text>
+  <path d="M550 62V397" stroke="#334155" stroke-opacity=".7"/>
+  <text x="610" y="91" fill="#94A3B8" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" letter-spacing="2">SOURCE FRAMES</text>
+  <g transform="translate(610 115)">
+    <use href="#drawing-a"/>
+    <use href="#drawing-a" x="78" opacity=".42"/>
+    <use href="#drawing-b" x="156"/>
+    <use href="#drawing-b" x="234" opacity=".42"/>
+    <use href="#drawing-b" x="312" opacity=".42"/>
+    <use href="#drawing-c" x="390"/>
+    <g fill="#94A3B8" font-family="Segoe UI,Arial,sans-serif" font-size="12" text-anchor="middle">
+      <text x="31" y="94">A</text>
+      <text x="109" y="94" opacity=".5">A</text>
+      <text x="187" y="94">B</text>
+      <text x="265" y="94" opacity=".5">B</text>
+      <text x="343" y="94" opacity=".5">B</text>
+      <text x="421" y="94">C</text>
+    </g>
+  </g>
+  <path d="M837 223V254M831 248L837 254L843 248" stroke="#818CF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="859" y="243" fill="#A5B4FC" font-family="Segoe UI,Arial,sans-serif" font-size="12">collapse repeats</text>
+  <g transform="translate(610 280)">
+    <use href="#drawing-a"/>
+    <use href="#drawing-b" x="78"/>
+    <use href="#drawing-c" x="156"/>
+    <rect width="62" height="72" rx="10" stroke="#5EEAD4"/>
+    <rect x="78" width="62" height="72" rx="10" stroke="#5EEAD4"/>
+    <rect x="156" width="62" height="72" rx="10" stroke="#5EEAD4"/>
+    <g fill="#99F6E4" font-family="Segoe UI,Arial,sans-serif" font-size="12" text-anchor="middle">
+      <text x="31" y="94">A</text>
+      <text x="109" y="94">B</text>
+      <text x="187" y="94">C</text>
+    </g>
+  </g>
+  <text x="867" y="311" fill="#D1FAE5" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="600">Unique frames.</text>
+  <text x="867" y="339" fill="#94A3B8" font-family="Segoe UI,Arial,sans-serif" font-size="16">Ready for Twixtor.</text>
+  <text x="610" y="407" fill="#64748B" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="1.2">32 × 18 BLOCK ANALYSIS  /  HOLD TIME REMAP</text>
+</svg>

@@ -1,0 +1,25 @@
+# Build output
+/target/
+/dist/
+
+# Test footage and AE comparison renders (large, user-supplied)
+/compare/
+
+# Local scratch files and README demo output
+/work/
+
+# Local environment secrets
+.env
+.env.*
+!.env.example
+
+# Release archives
+*.zip
+
+# Editor / OS
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.log

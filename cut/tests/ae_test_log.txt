@@ -1,0 +1,16 @@
+dedupeLayer: вырезано 60 из 96 кадров, 11.0 s (115 ms/frame)
+ok   time remap enabled
+ok   one key per unique frame  (36 keys, expected 36)
+ok   layer shortened  (out 1.5)
+ok   key values increase
+ok   keys are hold
+ok   probe comps removed  (0 left)
+ok   re-run restores and cuts again  (вырезано 60 из 96 кадров)
+ok   restore turns time remap off
+ok   restore brings back out point  (out 4)
+ok   restore clears tag  (comment '')
+real footage: вырезано 0 из 40 кадров, 172 ms/frame
+ok   real footage keeps every frame
+ok   footage on 3s keeps one frame per drawing  (вырезано 26 из 40 кадров, keys 14, expected 14)
+ok   kept frames are the first of each hold  (0,3,6,9,12,15,18,21,24,27,30,33,36,39)
+done
